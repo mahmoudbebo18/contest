@@ -161,7 +161,7 @@ footer {
   margin-bottom: 16px; }
 .why__content p {
   height: 100%;
-  box-shadow: 0 0 16px #ccc;
+  box-shadow: 0 0 8px #ccc;
   border-radius: 8px;
   padding: 16px;
   font-weight: 500;
