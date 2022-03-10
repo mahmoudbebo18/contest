@@ -1,4 +1,7 @@
 @import url("https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css");
+body {
+  color: #424141; }
+
 .navbar {
   background-color: #fff;
   box-shadow: 0 0 5px #ccc; }
@@ -17,6 +20,10 @@
   @media (max-width: 575px) {
     .benifits .container {
       padding-inline-start: 2rem; } }
+  .benifits h2 {
+    text-shadow: 6px 0 40px #111;
+    text-transform: uppercase;
+    font-size: 36px; }
 
 .ol-cards {
   --flapWidth: 2rem;
@@ -41,10 +48,8 @@
   align-items: center;
   padding: var(--colGapSize) var(--flapWidth) var(--colGapSize) 0;
   border-radius: 1rem 5rem 5rem 1rem;
-  background-image: linear-gradient(to bottom right, #e9eaec, #ffffff);
-  counter-increment: ol-cards-count;
-  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
-  box-shadow: inset 2px 2px 2px white, inset -1px -1px 1px rgba(0, 0, 0, 0.25); }
+  box-shadow: 0 0 16px #f1f1f1;
+  background-color: #fff; }
 
 .ol-cards > li > .icon {
   grid-area: icon;
@@ -60,18 +65,6 @@
   display: grid;
   place-items: center; }
 
-.ol-cards > li > .icon::before {
-  content: "";
-  position: absolute;
-  width: var(--flapWidth);
-  height: calc(100% + calc(var(--flapHeigth) * 2));
-  left: 0;
-  top: calc(var(--flapHeigth) * -1);
-  clip-path: polygon(0 var(--flapHeigth), 100% 0, 100% 100%, 0 calc(100% - var(--flapHeigth)));
-  background-color: var(--accent-color);
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
-  z-index: -1; }
-
 .ol-cards > li > .title {
   grid-area: title;
   font-weight: 600;
@@ -79,13 +72,6 @@
 
 .ol-cards > li > .descr {
   grid-area: descr; }
-
-.ol-cards > li::after {
-  grid-area: nr;
-  content: counter(ol-cards-count,decimal-leading-zero);
-  color: var(--accent-color);
-  font-size: var(--numberSize);
-  font-weight: 700; }
 
 @media (max-width: 40rem) {
   .ol-cards {
@@ -166,5 +152,27 @@ footer {
       footer .copyrights {
         width: 95%;
         left: 2.5%; } }
+
+.why__content h2 {
+  text-shadow: 6px 0 40px #111;
+  text-transform: uppercase;
+  font-size: 36px; }
+.why__content .col-lg-6 {
+  margin-bottom: 16px; }
+.why__content p {
+  height: 100%;
+  box-shadow: 0 0 16px #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  font-weight: 500;
+  margin: 0; }
+
+.how-it-works {
+  padding: 24px 0;
+  background-color: #f5fdff; }
+  .how-it-works .how__work h3 {
+    text-shadow: 6px 0 40px #111;
+    text-transform: uppercase;
+    font-size: 36px; }
 
 /*# sourceMappingURL=style.css.map */
