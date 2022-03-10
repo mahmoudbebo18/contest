@@ -21,9 +21,8 @@ body {
     .benifits .container {
       padding-inline-start: 2rem; } }
   .benifits h2 {
-    text-shadow: 6px 0 40px #111;
     text-transform: uppercase;
-    font-size: 36px; }
+    font-size: 40px; }
 
 .ol-cards {
   --flapWidth: 2rem;
@@ -82,7 +81,7 @@ body {
     --colGapSize: 1rem; } }
 /* for demo */
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 h1 {
   text-transform: uppercase;
@@ -154,14 +153,13 @@ footer {
         left: 2.5%; } }
 
 .why__content h2 {
-  text-shadow: 6px 0 40px #111;
   text-transform: uppercase;
-  font-size: 36px; }
+  font-size: 40px; }
 .why__content .col-lg-6 {
   margin-bottom: 16px; }
 .why__content p {
   height: 100%;
-  box-shadow: 0 0 8px #ccc;
+  border: 1px solid #f1f1f1;
   border-radius: 8px;
   padding: 16px;
   font-weight: 500;
@@ -171,8 +169,7 @@ footer {
   padding: 24px 0;
   background-color: #f5fdff; }
   .how-it-works .how__work h3 {
-    text-shadow: 6px 0 40px #111;
     text-transform: uppercase;
-    font-size: 36px; }
+    font-size: 40px; }
 
 /*# sourceMappingURL=style.css.map */
